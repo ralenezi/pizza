@@ -1,0 +1,112 @@
+@media (min-width: 640px) {
+  body {
+    background-color: black;
+  }
+  * {
+    text-transform: uppercase;
+    font-family: 'Amatic SC', sans-serif;
+  }
+  .wrapper {
+    display: flex;
+    margin: auto;
+    width: 75%;
+    color: #ffffff;
+    border-bottom: 0.5px solid rgba(165, 165, 165, 0.461);
+  }
+  .heading {
+    background-color: tomato;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+  }
+  .row {
+    background-color: white;
+    color: black;
+    width: 100%;
+    padding: 10px;
+  }
+  .section {
+    background-color: white;
+    color: white;
+    padding: 10px;
+  }
+  .section p {
+    background-color: gray;
+    font-size: x-large;
+    padding: 5px;
+  }
+  .circle {
+    padding: 5px;
+    box-shadow: 5px 5px 15px 2px #d3d3d3;
+    border-radius: 100px;
+    width: 25px;
+  }
+}
+@media (max-width: 640px) {
+  * {
+    text-transform: uppercase;
+    font-family: 'Amatic SC', sans-serif;
+    margin: 0;
+  }
+  .hidden {
+    display: none;
+  }
+  .heading {
+    background-color: tomato;
+    color: #ffffff;
+    position: sticky;
+    top: 0;
+    height: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+  }
+  h1,
+  p,
+  label {
+    font-size: xx-large;
+    padding: 0.2rem;
+  }
+  .row p {
+    color: darkgray;
+  }
+  .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section p {
+    display: inline-block;
+    padding: 0.2rem;
+    background-color: orange;
+  }
+  .resp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5rem;
+  }
+  .circle {
+    width: 30px;
+  }
+  .wrapper {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.461);
+    padding-bottom: 1rem;
+  }
+  .resp span {
+    margin-bottom: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 5px 5px 15px 2px #d3d3d3;
+    width: 30px;
+    height: 30px;
+    padding: 0.5rem;
+    margin-left: 0.15rem;
+  }
+}
